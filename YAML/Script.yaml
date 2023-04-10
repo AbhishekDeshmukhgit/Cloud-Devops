@@ -1,0 +1,20 @@
+---
+-Student1 :
+  rollno: 1
+  name: abc
+  address :
+    Street: Laxmi Road
+    Area: kondhwa
+    Pin: 411048
+    Phoneno: [808021773,98343211]
+
+-Student2 :
+  rollno: 2
+  name: abceef
+  address :
+    Street: Laxmi Road bhutiya nagar
+    Area: kondhwa
+    Pin: 411048
+    Phoneno: [808021773,98343211]
+
+...

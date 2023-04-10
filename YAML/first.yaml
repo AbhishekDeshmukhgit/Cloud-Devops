@@ -1,0 +1,56 @@
+#Key:value
+name: abhi  
+rollno: 01
+college: viit
+
+
+#objects
+Student1:
+  name: abhi
+  rollno1: 01
+  college1: viit
+
+#for list
+Student2:
+  name: abhi
+  rollno1: 01
+  college1: viit
+  subject: 
+      - "CN"
+      - "DBMS"
+      - "OS"
+
+Student3:
+  name: abhi
+  rollno1: 01
+  college1: viit
+  subject: [cn,dbms,os]
+
+
+#Multiline String
+String: |
+    This is first line
+    This is second line
+
+#This will take entire string as one line
+String1: >
+    This is first line
+    This is second line
+
+#Booleaen values are True,false,On,Off,Yes,No
+
+
+#Start of script : ---
+# End of file: ...
+
+# Specify the type
+zero: !!int 0
+positiveNum: !!int 45
+negativeNum: !!int -45
+octalNum: !!int 06574
+# binaryNum: !!int 0b1101
+hexa: !!int 0x45
+# commaValue: !!int +540_000 #540,000
+
+
+
